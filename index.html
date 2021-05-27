@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>CERA Resident's Stickers</title>
+</head>
+<body>
+    <div class="container animate__animated animate__bounceInLeft" style="border: 3px solid black;border-radius: 3px;">
+        <div class="row">
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
+                <img style="padding: 5px;" src="ceralogo01.PNG" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-4">
+
+            </div>
+        </div>
+        <div style="padding: 20px;"> 
+           
+            <h1>CERA Residents Stickers</h1>
+            <p>CERA stickers are ready for all residents.  Once your application has been submitted you will receive an automated response confirming that we have received
+                 your application.  Within a few days you will receive
+                 a text message from our office informing you of the status of your application and if approved, instructions will be given on where and when you may collect them.</p>
+        </div>
+       
+
+             <form action="" style="padding: 20px;">
+                <div class="form-group">
+                    <label for="Name">Name & Surname</label>
+                    <input type="text" class="form-control"/>
+                </div>
+        
+                <div class="form-group">
+                    <label for="Address">Address</label>
+                    <input type="text" class="form-control"/>
+                </div>
+        
+                <div class="form-group">
+                    <label for="cellphone">Cellphone Number</label>
+                    <input type="tel" class="form-control"/>
+                </div>
+        
+                <div class="form-group">
+                    <label for="cellphone">Select Complex</label>
+                    <select class="form-control" id="sel1">
+                        <option>Stand alone House</option>
+                        <option>Telkom</option>
+                        <option>Midrand Mews</option>
+                        <option>Clayville Mews</option>
+                      </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="cellphone">Number of stickers</label>
+                    <input type="number" class="form-control"/>
+                </div>
+        
+                
+        
+                <div class="form-group">
+                    <label for="cellphone">Proof of residence</label>
+                    <input type="file" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="cellphone">Proof of Sticker payment</label>
+                    <input type="file" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="cellphone">Please upload a copy of your ID</label>
+                    <input type="file" class="form-control"/>
+                </div>
+        
+                <button class="btn btn-success">Submit Order</button>
+            </form>
+    </div>
+   
+ 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDOU5D7mOsx6yRjokgLw6WNrSk3d_RH9M4",
+    authDomain: "cera-stickers.firebaseapp.com",
+    projectId: "cera-stickers",
+    storageBucket: "cera-stickers.appspot.com",
+    messagingSenderId: "359297029928",
+    appId: "1:359297029928:web:72bf137833e0e492f5621d",
+    measurementId: "G-NBPTNDK9MF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
